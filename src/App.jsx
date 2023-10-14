@@ -18,6 +18,8 @@ import Props from "./Components/FuncProps";
 import UseState from "./Components/FuncUseState";
 import UseEffect from "./Components/FuncUseEffect";
 import UseReducer from "./Components/FuncUseReducer";
+import Context from "./Components/FuncContext";
+import Child from "./Components/ContextChild";
 
 export default function App() {
 	return (
@@ -30,7 +32,8 @@ export default function App() {
 			{/* <Props age={18} /> */}
 			{/* <UseState /> */}
 			{/* <UseEffect /> */}
-			<UseReducer />
+			{/* <UseReducer /> */}
+			<Context></Context>
 		</>
 	);
 }
