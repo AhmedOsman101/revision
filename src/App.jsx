@@ -8,21 +8,35 @@ import React, {
 import logo from "./logo.svg";
 import axios from "axios";
 import { Routes, Route } from "react-router-dom";
-import ClassMap from "./Components/ClassMap";
-import ClassReduce from "./Components/ClassReduce";
-import FuncFilter from "./Components/FuncFilter";
+import Map from "./Components/ClassMap";
+import Reduce from "./Components/ClassReduce";
+import Filter from "./Components/FuncFilter";
 import ArrayMethods from "./Components/FuncArrayMethods";
+import State from "./Components/ClassState";
+import Events from "./Components/ClassEvents";
+// import State from "./Components/";
+// import State from "./Components/";
+// import State from "./Components/";
+// import State from "./Components/";
+// import State from "./Components/";
+// import State from "./Components/";
+// import State from "./Components/";
+// import State from "./Components/";
+// import State from "./Components/";
+// import State from "./Components/";
 
 export default function App() {
 	return (
 		<>
-			{/* <ClassMap /> */}
+			{/* <Map /> */}
 
-			{/* <FuncFilter /> */}
+			{/* <Filter /> */}
 
-			{/* <ClassReduce /> */}
+			{/* <Reduce /> */}
 
-			<ArrayMethods />
+			{/* <ArrayMethods /> */}
+
+			<State />
 		</>
 	);
 }
