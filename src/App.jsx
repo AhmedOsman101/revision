@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, {
 	Component,
 	useContext,
@@ -13,7 +14,7 @@ import Reduce from "./Components/ClassReduce";
 import Filter from "./Components/FuncFilter";
 import ArrayMethods from "./Components/FuncArrayMethods";
 import State from "./Components/ClassState";
-import Events from "./Components/ClassEvents";
+import FuncProps from "./Components/FuncProps";
 // import State from "./Components/";
 // import State from "./Components/";
 // import State from "./Components/";
@@ -37,8 +38,7 @@ export default function App() {
 			{/* <ArrayMethods /> */}
 
 			<State />
-			<div>
-			</div>
+			{/* <FuncProps age={18} /> */}
 		</>
 	);
 }
