@@ -11,6 +11,7 @@ import { Routes, Route } from "react-router-dom";
 import ClassMap from "./Components/ClassMap";
 import ClassReduce from "./Components/ClassReduce";
 import FuncFilter from "./Components/FuncFilter";
+import ArrayMethods from "./Components/FuncArrayMethods";
 
 export default function App() {
 	return (
@@ -19,7 +20,9 @@ export default function App() {
 
 			{/* <FuncFilter /> */}
 
-			<ClassReduce />
+			{/* <ClassReduce /> */}
+
+			<ArrayMethods />
 		</>
 	);
 }
