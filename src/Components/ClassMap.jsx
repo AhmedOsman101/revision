@@ -7,10 +7,12 @@ class ClassMap extends Component {
 		return (
 			<>
 				<div>
-					{arr.map((item) => {
+					{arr.map((item, index) => {
 						return (
 							<>
-								<div>{item % 2 === 0 ? item * item : item}</div>
+								<div key={index}>
+									{item % 2 === 0 ? item * item : item}
+								</div>
 							</>
 						);
 					})}
