@@ -1,6 +1,6 @@
 import React from "react";
 
-function ClassConstructor(props) {
+function ArrayMethods(props) {
 	let arr1 = [1, 2, 3, 4, 5];
 	let arr2 = [6, 7, 8, 9, 10];
 	let arr3 = [...arr1, ...arr2];
@@ -11,4 +11,4 @@ function ClassConstructor(props) {
 	console.log(fir, sec, thi);
 }
 
-export default ClassConstructor;
+export default ArrayMethods;
