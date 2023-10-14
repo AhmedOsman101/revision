@@ -14,17 +14,8 @@ import Reduce from "./Components/ClassReduce";
 import Filter from "./Components/FuncFilter";
 import ArrayMethods from "./Components/FuncArrayMethods";
 import State from "./Components/ClassState";
-import FuncProps from "./Components/FuncProps";
-// import State from "./Components/";
-// import State from "./Components/";
-// import State from "./Components/";
-// import State from "./Components/";
-// import State from "./Components/";
-// import State from "./Components/";
-// import State from "./Components/";
-// import State from "./Components/";
-// import State from "./Components/";
-// import State from "./Components/";
+import Props from "./Components/FuncProps";
+import UseState from "./Components/FuncUseState";
 
 export default function App() {
 	return (
@@ -37,8 +28,9 @@ export default function App() {
 
 			{/* <ArrayMethods /> */}
 
-			<State />
-			{/* <FuncProps age={18} /> */}
+			{/* <State /> */}
+			{/* <Props age={18} /> */}
+			<UseState />
 		</>
 	);
 }

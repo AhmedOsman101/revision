@@ -1,10 +1,11 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useEffect, useState } from "react";
 
 export default function FuncUseState(props) {
-    return (
-        <>
-            
-        </>
-    );
+	const [time, setTime] = useState(new Date());
+	return (
+		<>
+			<h1>{time.toLocaleTimeString()}</h1>
+		</>
+	);
 }
-
