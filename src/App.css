@@ -1,5 +1,5 @@
 * {
-	text-transform: capitalize;
+	text-transform: capitalize !important;
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -20,4 +20,5 @@ body {
 button,
 .btn {
 	font-size: calc(1rem + 10px);
+	text-transform: capitalize !important;
 }

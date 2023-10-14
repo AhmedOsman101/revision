@@ -15,24 +15,22 @@ import Filter from "./Components/FuncFilter";
 import ArrayMethods from "./Components/FuncArrayMethods";
 import State from "./Components/ClassState";
 import Props from "./Components/FuncProps";
-import UseState from "./Components/FuncUseState";  
-import UseEffect from "./Components/FuncUseEffect";  
+import UseState from "./Components/FuncUseState";
+import UseEffect from "./Components/FuncUseEffect";
+import UseReducer from "./Components/FuncUseReducer";
 
 export default function App() {
 	return (
 		<>
 			{/* <Map /> */}
-
 			{/* <Filter /> */}
-
 			{/* <Reduce /> */}
-
 			{/* <ArrayMethods /> */}
-
 			{/* <State /> */}
 			{/* <Props age={18} /> */}
-			<UseState />
-			<UseEffect />
+			{/* <UseState /> */}
+			{/* <UseEffect /> */}
+			<UseReducer />
 		</>
 	);
 }
