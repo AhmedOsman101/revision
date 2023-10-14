@@ -12,7 +12,7 @@ export default function FuncUseState(props) {
 	}, []);
 	return (
 		<>
-			<h1>{time.toLocaleTimeString()}</h1>
+			<h1>dynamic time: {time.toLocaleTimeString()}</h1>
 		</>
 	);
 }

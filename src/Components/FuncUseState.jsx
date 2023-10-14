@@ -5,7 +5,7 @@ export default function FuncUseState(props) {
 	const [time, setTime] = useState(new Date());
 	return (
 		<>
-			<h1>{time.toLocaleTimeString()}</h1>
+			<h1>static time: {time.toLocaleTimeString()}</h1>
 		</>
 	);
 }

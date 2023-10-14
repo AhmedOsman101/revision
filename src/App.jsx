@@ -15,7 +15,8 @@ import Filter from "./Components/FuncFilter";
 import ArrayMethods from "./Components/FuncArrayMethods";
 import State from "./Components/ClassState";
 import Props from "./Components/FuncProps";
-import UseState from "./Components/FuncUseState";
+import UseState from "./Components/FuncUseState";  
+import UseEffect from "./Components/FuncUseEffect";  
 
 export default function App() {
 	return (
@@ -31,6 +32,7 @@ export default function App() {
 			{/* <State /> */}
 			{/* <Props age={18} /> */}
 			<UseState />
+			<UseEffect />
 		</>
 	);
 }
