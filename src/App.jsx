@@ -16,7 +16,9 @@ export default function App() {
 	return (
 		<>
 			{/* <ClassMap /> */}
+			
 			{/* <FuncFilter /> */}
+
 			<ClassReduce />
 		</>
 	);
