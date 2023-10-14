@@ -37,6 +37,8 @@ export default function App() {
 			{/* <ArrayMethods /> */}
 
 			<State />
+			<div>
+			</div>
 		</>
 	);
 }
