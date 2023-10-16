@@ -1,6 +1,6 @@
 /* eslint-disable no-lone-blocks */
 import React, { Component } from "react";
-import { myContext } from "./FuncContext"; // TODO: import context from parent
+import { myContext } from "./Context"; // TODO: import context from parent
 
 export default class ContextChildClass extends Component {
 	render() {

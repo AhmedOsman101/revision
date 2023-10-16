@@ -14,15 +14,11 @@ export default function FuncContext() {
 			<myContext.Provider value={name}>
 				{/* //TODO: wrap children in context.provider tag, and pass a value */}
 				<Child></Child>
-				<br />
-				<br />
-				<br />
+				<br /><br /><br />
 				<button className="btn btn-primary" onClick={change}>
 					change
 				</button>
-				<br />
-				<br />
-				<br />
+				<br /><br /><br />
 				<ChildClass></ChildClass>
 			</myContext.Provider>
 		</>

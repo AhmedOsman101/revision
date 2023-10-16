@@ -9,17 +9,18 @@ import React, {
 import logo from "./logo.svg";
 import axios from "axios";
 import { Routes, Route } from "react-router-dom";
-import Map from "./Components/ClassMap";
-import Reduce from "./Components/ClassReduce";
-import Filter from "./Components/FuncFilter";
-import ArrayMethods from "./Components/FuncArrayMethods";
-import State from "./Components/ClassState";
-import Props from "./Components/FuncProps";
-import UseState from "./Components/FuncUseState";
-import UseEffect from "./Components/FuncUseEffect";
-import UseReducer from "./Components/FuncUseReducer";
-import Context from "./Components/FuncContext";
+import Map from "./Components/Map";
+import Reduce from "./Components/Reduce";
+import Filter from "./Components/Filter";
+import ArrayMethods from "./Components/ArrayMethods";
+import State from "./Components/State";
+import Props from "./Components/Props";
+import UseState from "./Components/UseState";
+import UseEffect from "./Components/UseEffect";
+import UseReducer from "./Components/UseReducer";
+import Context from "./Components/Context";
 import Child from "./Components/ContextChild";
+import LifeCycle from "./Components/LifeCycle";
 
 export default function App() {
 	return (
@@ -33,7 +34,8 @@ export default function App() {
 			{/* <UseState /> */}
 			{/* <UseEffect /> */}
 			{/* <UseReducer /> */}
-			<Context></Context>
+			{/* <Context></Context> */}
+			{/* <LifeCycle/> */}
 		</>
 	);
 }
