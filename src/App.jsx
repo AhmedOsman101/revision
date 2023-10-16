@@ -21,6 +21,8 @@ import UseReducer from "./Components/UseReducer";
 import Context from "./Components/Context";
 import Child from "./Components/ContextChild";
 import LifeCycle from "./Components/LifeCycle";
+import Axios from "./Components/API-Axios";
+import ClassAxios from "./Components/API-AxiosClass";
 
 export default function App() {
 	return (
@@ -36,6 +38,8 @@ export default function App() {
 			{/* <UseReducer /> */}
 			{/* <Context></Context> */}
 			{/* <LifeCycle/> */}
+			<Axios />
+			<ClassAxios />
 		</>
 	);
 }
