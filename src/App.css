@@ -6,13 +6,40 @@
 	text-align: center;
 }
 
+nav,
+.navbar,
+header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 7rem;
+	z-index: 1;
+}
+
+img,
+.card-image {
+	max-width: 200px;
+	aspect-ratio: 1/1;
+	text-align: center;
+}
+
+.card{
+	width: calc(90%/3);
+	aspect-ratio: 1/1;
+}
+
+nav img{
+	width: 100px;
+}
+
 body {
 	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	/* align-items: center;
+	justify-content: center; */
 	color: white;
 	margin: 0;
 }

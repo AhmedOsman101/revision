@@ -1,45 +1,25 @@
 /* eslint-disable no-unused-vars */
-import React, {
-	Component,
-	useContext,
-	useEffect,
-	useReducer,
-	useState,
-} from "react";
-import logo from "./logo.svg";
-import axios from "axios";
-import { Routes, Route } from "react-router-dom";
-import Map from "./Components/Map";
-import Reduce from "./Components/Reduce";
-import Filter from "./Components/Filter";
-import ArrayMethods from "./Components/ArrayMethods";
-import State from "./Components/State";
-import Props from "./Components/Props";
-import UseState from "./Components/UseState";
-import UseEffect from "./Components/UseEffect";
-import UseReducer from "./Components/UseReducer";
-import Context from "./Components/Context";
-import Child from "./Components/ContextChild";
-import LifeCycle from "./Components/LifeCycle";
-import Axios from "./Components/API-Axios";
-import ClassAxios from "./Components/API-AxiosClass";
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Navbar from "./Navbar";
+import Card from "./Card";
+import Details from "./Details";
+import Home from "./Home";
 
 export default function App() {
 	return (
 		<>
-			{/* <Map /> */}
-			{/* <Filter /> */}
-			{/* <Reduce /> */}
-			{/* <ArrayMethods /> */}
-			{/* <State /> */}
-			{/* <Props age={18} /> */}
-			{/* <UseState /> */}
-			{/* <UseEffect /> */}
-			{/* <UseReducer /> */}
-			{/* <Context></Context> */}
-			{/* <LifeCycle/> */}
-			<Axios />
-			<ClassAxios />
+			<Navbar />
+			<div>
+				<Routes>
+					<Route path="/" Component={Home}></Route>
+					<Route path="/card">
+						<Route index Component={Card}></Route>
+						<Route path=":id" Component={Details}></Route>
+						<Route path="new" Component={Home}></Route>
+					</Route>
+				</Routes>
+			</div>
 		</>
 	);
 }

@@ -15,7 +15,7 @@ export default function Axios() {
 			);
 			setData(response.data);
 		} catch (error) {
-			console.log(error);
+			throw new Error(error)
 		}
 	}
 

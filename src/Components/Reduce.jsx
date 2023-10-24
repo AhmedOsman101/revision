@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 export default class ClassReduce extends Component {
 	constructor(props) {
@@ -9,9 +9,5 @@ export default class ClassReduce extends Component {
 			return result;
 		});
 		console.log(newArr);
-	}
-
-	render() {
-		return <>j</>;
 	}
 }
